@@ -6,4 +6,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="kamen.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="kamen.png" />
+  </ItemGroup>
+
 </Project>

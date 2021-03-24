@@ -29,5 +29,9 @@ namespace RockPaperScissorsClient
             Task.Run(() => requestProvider.Run());
         }
 
+        private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
