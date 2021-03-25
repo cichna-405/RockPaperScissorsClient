@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Windows.Controls;
 
 namespace RockPaperScissorsClient.RequestProviders
 {
@@ -13,7 +14,7 @@ namespace RockPaperScissorsClient.RequestProviders
             requestProvider = new RequestProvider();
             return requestProvider;
         }
-        public async void Run()
+        public async void Run(MainWindow mainWindow)
         {
 
         }

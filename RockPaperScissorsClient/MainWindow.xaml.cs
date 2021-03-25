@@ -26,8 +26,14 @@ namespace RockPaperScissorsClient
             InitializeComponent();
 
             RequestProvider requestProvider = RequestProvider.Create();
-            Task.Run(() => requestProvider.Run());
+            Task.Run(() => requestProvider.Run(this));
+
+            string token = Request.Login("admin", "admin");
+
+            // MainWindow window = new MainWindow();
+            // window.ShowDialog(); // MainWindow nahradis tim novym window
         }
 
+        
     }
 }
