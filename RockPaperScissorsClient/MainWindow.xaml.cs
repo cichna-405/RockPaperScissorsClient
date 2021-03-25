@@ -34,6 +34,13 @@ namespace RockPaperScissorsClient
             // window.ShowDialog(); // MainWindow nahradis tim novym window
         }
 
+<<<<<<< HEAD
         
+=======
+        private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+>>>>>>> d817b7d45261c2462ccbe74c9c74ab8b6d91fa2d
     }
 }

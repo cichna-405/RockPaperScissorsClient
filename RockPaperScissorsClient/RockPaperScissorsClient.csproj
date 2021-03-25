@@ -7,7 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+=======
+    <None Remove="kamen.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="kamen.png" />
+>>>>>>> d817b7d45261c2462ccbe74c9c74ab8b6d91fa2d
   </ItemGroup>
 
 </Project>

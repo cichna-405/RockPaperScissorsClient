@@ -5,8 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RockPaperScissorsClient"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" Background="#FFD3C096">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="77*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock HorizontalAlignment="Left" Margin="287,314,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Height="85" Width="266" Grid.Column="1"/>
+        <RadioButton Content="PAPER" HorizontalAlignment="Left" Margin="317,227,0,0" VerticalAlignment="Top" Grid.Column="1" BorderBrush="Black" Foreground="Black" Background="#FFA3A69F" FontFamily="Segoe Print" FontWeight="Bold"/>
+        <RadioButton Content="SCISSORS" VerticalAlignment="Top" Margin="515,227,170,0" Grid.Column="1" Background="White" BorderBrush="Black" FontFamily="Segoe Print" FontWeight="Bold"/>
+        <RadioButton Content="ROCK" HorizontalAlignment="Left" Margin="116,227,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked" Grid.Column="1" Background="#FF0E0E0E" FontFamily="Segoe Print" FontWeight="Bold"/>
+        <Image Margin="100,88,569,235" Stretch="Fill" Source="kamen.png" Grid.Column="1"/>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="290,88,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image Margin="312,83,372,230" Stretch="Fill" Source="pack://siteoforigin:,,,/—Pngtree—a torn note paper_5540244.png" Grid.Column="1" RenderTransformOrigin="-1.471,-3.759"/>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="539,86,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image Grid.Column="1" Margin="505,87,161,230" Stretch="Fill" Source="pack://siteoforigin:,,,/scissors-png.png"/>
 
     </Grid>
 </Window>
